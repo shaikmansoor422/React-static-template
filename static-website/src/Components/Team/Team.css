@@ -1,0 +1,60 @@
+
+.p1 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(24, 24, 23);
+    font-size: xx-large;
+
+}
+
+.p2 {
+    text-align: center;
+    color: rgb(49, 49, 48);
+    font-size: medium;
+    letter-spacing: 7px;
+}
+
+.team {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.developer,
+.designer,
+.fixer {
+    width: 150px;
+}
+
+.team-imgs {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    box-sizing: border-box;
+    object-fit: fill;
+
+}
+
+.team-imgs img {
+    height: 100%;
+    width: 100%;
+}
+
+.team-names {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    margin: 2px;
+}
+
+.team-content {
+    text-align: center;
+    font-size: small;
+    color: rgb(54, 53, 53)
+}

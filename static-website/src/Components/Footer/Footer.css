@@ -1,0 +1,41 @@
+.footer{
+    
+    background-color: black;
+    height: 120px;
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.svgs{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 40px;
+    justify-content: space-evenly;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    top: 20px;
+   
+    
+}
+.follow-us{
+    color: rgb(252, 251, 251);
+    width: 80px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    
+}
+.design{
+    text-align: center;
+    font-size: x-small;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 40px;
+}
+
